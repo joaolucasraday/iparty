@@ -27,7 +27,7 @@ export function App() {
   if (!loaded && !error) return null;
 
   return(
-    <SafeAreaView style={{flex:1, backgroundColor: Theme.colors.background}}>
+    <SafeAreaView style={{flex:1, backgroundColor: Theme.colors.navigationbar}}>
         <StatusBar style='light'/>
         <Routes /> 
     </SafeAreaView>

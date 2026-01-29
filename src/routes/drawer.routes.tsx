@@ -1,5 +1,4 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Home } from '../pages/Home/Home';
 import { BottomTabRoutes } from './bottomtab.routes';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { Theme } from '../themes/Themes';
@@ -47,6 +46,7 @@ const styles = StyleSheet.create({
         backgroundColor: Theme.colors.navigationbar,
         elevation: 0,
         shadowOpacity: 0,
+        height: 50
     },
     headerTitle: {
         color: Theme.colors.text,

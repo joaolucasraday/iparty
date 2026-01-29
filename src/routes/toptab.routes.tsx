@@ -29,9 +29,10 @@ export function TopTabRoutes(){
 
 const styles = StyleSheet.create ({
     tabBar: {
-        backgroundColor: Theme.colors.background,
+        backgroundColor: Theme.colors.navigationbar,
         borderBottomWidth: 0.5,
-        borderBottomColor: Theme.colors.divider
+        borderBottomColor: Theme.colors.divider,
+        height: 50
     },
     tabBarLabel: {
         fontFamily: Theme.fonts.interMedium,
