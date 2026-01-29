@@ -3,12 +3,17 @@ import { TopTabRoutes } from './toptab.routes';
 import { Search } from '../pages/Search/Search';
 import { Chat } from '../pages/Chat/Chat';
 import { Profile } from '../pages/Profile/Profile';
+import { DrawerRoutes } from './drawer.routes';
 
 const Tab = createBottomTabNavigator();
 
 export function BottomTabRoutes() {
   return (
     <Tab.Navigator screenOptions={{ headerShown: false }}>
+      <Tab.Screen
+        name="Header"
+        component={DrawerRoutes}
+        options={{title: 'header'}}/>
       <Tab.Screen 
         name="HomeTab" 
         component={TopTabRoutes}

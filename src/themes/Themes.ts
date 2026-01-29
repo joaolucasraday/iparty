@@ -1,17 +1,24 @@
 
 export const Theme = {
     colors:{
-        primary: '#111111',
-        background: '#191919',
+        primary: '#FF008C',
+        background: '#1A1A1A',
         text: 'white',
-        subtext: '#A8A8A8',
-        divider: '#FF008C'
+        subtext: '#B2B2B2',
+        divider: '#3F3F3F',
+        navigationbar: '#111111'
     },
     fonts:{
         interRegular: 'InterRegular',
         interBold: 'InterBold',
+        interBlack: 'InterBlack',
+        interMedium: 'InterMedium'
     },
     fontSizes:{
-        title: 60,
+        ipartytitle: 22,
+        toptabtitle: 15,
+        title: 20,
+        subtitle1: 12,
+        subtitle2: 10
     }
 }

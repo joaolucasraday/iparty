@@ -1,4 +1,4 @@
-import { Text, View } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 
 export function YourPage(){
     return(
@@ -7,3 +7,7 @@ export function YourPage(){
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    
+})
